@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/scriptf.js"></script>
+</head>
+<body>
+    <p>Formulario 1</p>
+    <form action="index.html" method="post" onsubmit="return validar_datos_profe()">
+        <input type="text" id="nombre" placeholder="Diego Aguilera">
+        <p id="nombre_mensaje"></p>
+        <button type="submit" value="Enviar">Validar datos</button>
+    </form>
+    <p>Formulario 2</p>
+    <form action="index1.html" onsubmit="return validar_datos_profe2()">
+        <input type="text" id="nombre2" placeholder="Diego">
+        <p id="nombre_mensaje2"></p>
+        <input type="text" id="edad" placeholder="25">
+        <p id="edad_mensaje"></p>
+        <button type="submit" value="Enviar">Validar datos</button>
+    </form>
+    <p>Formulario 3</p>
+    <form action="index1.html" onsubmit="return validar_datos_profe3()">
+        <input type="text" id="nombre3" placeholder="Diego Aguilera">
+        <p id="nombre_mensaje3"></p>
+        <input type="password" id="contrasena" placeholder="contraseña">
+        <p id="contrasena_mensaje"></p>
+        <button type="submit" value="Enviar">Validar datos</button>
+    </form>
+    <p>Formulario4</p>
+    <form action="#" onsubmit="return validar_datos4()">
+        <label>Hola</label><input type="checkbox" id="hola" value="Hola"><br>
+        <label>Que</label><input type="checkbox" id="que" value="Que"><br>
+        <label>Tal</label><input type="checkbox" id="tal" value="Tal"><br>
+        <label>Festival</label><input type="checkbox" id="festival" value="Festival"><br>
+        <input type="submit" value="Frase">
+        <p id="check_mensaje"></p>
+    </form>
+</body>
+</html>

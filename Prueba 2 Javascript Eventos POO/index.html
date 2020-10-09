@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba Eventos POO</title>
+</head>
+<body>
+    <form onsubmit="return agregar()">
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" id="id_nombre"><br>
+    <label for="valor">Valor:</label><br>
+    <input type="text" id="id_valor"><br>
+    <label for="cantidad">Cantidad:</label><br>
+    <input type="text" id="id_cantidad"><br>
+    <br><input type="submit" value="Ingresar">
+    <p id="lista_errores"></p>
+    </form>
+    <hr>
+    <br>
+    <button onclick="mostrar()">Listar productos</button>
+    <h2>Lista de productos</h2>
+    <p id="lista"></p> 
+    <script src="js/script.js"></script>
+</body>
+</html>

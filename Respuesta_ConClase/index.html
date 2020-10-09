@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="return agregar()">
+        Nombre:<br>
+        <input type="text" id="id_nombre"><br>
+        Edad:<br>
+        <input type="text" id="id_edad"><br>
+        <input type="submit" value="Agregar">
+    </form>
+    <hr>
+    <br>
+    <button onclick="mostrar()">Listar Clientes</button><br>
+    <h2>Lista de clientes</h2>
+    <div id="id_lista_clientes"></div>
+    <script src="./js/script.js"></script>
+</body>
+</html>

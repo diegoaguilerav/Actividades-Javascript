@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/script_form2.js"></script>
+    <title>DOM FINAL 2</title>
+</head>
+<body>
+    <p>Formulario 1</p>
+    <form action="destino.html" onsubmit="return validar_form2_1()">
+        <label for="texto">Ingrese un texto: <input type="text" id="texto"></label>
+        <input type="submit" value="Enviar">
+    </form>
+    <p>Formulario 2</p>
+    <form action="destino.html" onsubmit="return validar_form2_22()">
+        <label for="nombre1"><input type="text" id="nombre1"></label>
+        <span>y</span>
+        <label for="nombre2"><input type="text" id="nombre2"></label>
+        <input type="submit" value="?">
+    </form>
+    <p>Formulario 3</p>
+    <form action="destino.html" onsubmit="return validar_form2_3()">
+        <label for="numero1"><input type="text" id="numero1"></label>
+        <select name="operador matematico" id="operador">
+            <option value='suma'>+</option>
+            <option value='resta'>-</option>
+            <option value='multiplicacion'>*</option>
+            <option value='division'>/</option>
+        </select>
+        <label for="numero2"><input type="text" id="numero2"></label>
+        <input type="submit" value="Calcular">
+        <p id="operacion"></p>
+    </form>
+</body>
+</html>

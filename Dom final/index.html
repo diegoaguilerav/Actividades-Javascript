@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM FINAL</title>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <p>Formulario 1</p>
+    <form action="destino.html" method="post" onsubmit="return validar_datos()">
+        <label for="nombre">Nombre: <input type="text" id="nombre" placeholder="Diego Aguilera"></label>
+        <p id="nombre_mensaje"></p>
+        <button type="submit" value="Enviar">Validar datos</button>
+    </form>
+    <p>Formulario 2</p>
+    <form action="destino.html" onsubmit="return validar_datos_2()">
+        <label for="nombre"><input type="text" id="nombre2" placeholder="Diego"></label>
+        <p id="nombre_mensaje2"></p>
+        <label for="edad"><input type="text" id="edad" placeholder="25"></label>
+        <p id="edad_mensaje"></p>
+        <button type="submit" value="Enviar">Validar datos</button>
+    </form>
+    <p>Formulario 3</p>
+    <form action="destino.html" onsubmit="return validar_datos_3()">
+        <label for="nombre"><input type="text" id="nombre3" placeholder="Diego Aguilera"></label>
+        <p id="nombre_mensaje3"></p>
+        <label for="password"><input type="password" id="contrasena" placeholder="contraseña"></label>
+        <p id="contrasena_mensaje"></p>
+        <button type="submit" value="Enviar">Validar datos</button>
+    </form>
+    <p>Formulario 4</p>
+    <form action="destino.html" onsubmit="return validar_datos_4()">
+        <label>Hola</label><input type="checkbox" id="hola" value="Hola"><br>
+        <label>Que</label><input type="checkbox" id="que" value="Que"><br>
+        <label>Tal</label><input type="checkbox" id="tal" value="Tal"><br>
+        <label>Festival</label><input type="checkbox" id="festival" value="Festival"><br>
+        <input type="submit" value="Frase">
+        <p id="check_mensaje"></p>
+    </form>
+    <p>Formulario 5</p>
+    <form action="destino.html" onsubmit="return validar_datos_5()">
+        <label for="nombre">Nombre: <input type="text" id="nombre5" placeholder="Diego Aguilera"></label>
+        <p id="nombre_mensaje5" class="rojo"></p>
+        <label for="email">Correo eléctronico: <input type="text" id="email" placeholder="algo@mail.com"></label><br>
+        <p id="email_mensaje" class="rojo"></p>
+        <label for="password">Contraseña: <input type="password" id="password" placeholder="1234"></label>
+        <p id="password_mensaje" class="rojo"></p>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

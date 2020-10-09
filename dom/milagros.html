@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/milagros.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <form action="ejercicio2-1.html" method="get" onsubmit="return validar()">
+        <table>
+            <tr>
+                <td>Nombre:</td>
+                <td><input type="text" id="input_nombre"></td>
+            </tr>
+            <tr>
+                <td>Correo electrónico:</td>
+                <td><input type="text" id="input_correo"></td>
+            </tr>
+            <tr>
+                <td>Contraseña:</td>
+                <td><input type="password" id="input_clave"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><br><input type="submit" valur="ENVIAR"></td>
+            </tr>
+        </table>
+    </form>
+    <br>
+    <div style="color:red" id="mensaje"></div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/script.js"></script>
+    <title>Prueba</title>
+</head>
+<body>
+    <h1>Formulario de cotización</h1>
+    <form action="" onsubmit="return validar()">
+    <label for="nombre">Nombre: </label><br><input type="text" id="input_nombre" placeholder="Zapatilla"><br>
+    <label for="valor">Valor: </label><br><input type="text" id="input_valor" placeholder="10000"><br>
+    <label for="cantidad">Cantidad: </label><br><input type="text" id="input_cantidad" placeholder="5"><br>
+    <label for="cliente">Nombre del cliente: </label><br><input type="text" id="input_cliente" placeholder="Diego Aguilera"><br>
+    <label for="email">Email: </label><br><input type="email" id="input_email" placeholder="diego@mail.com"><br>
+    <br><input type="submit" value="Cotizar">
+    <h2 id="titulo"></h2>
+    <p id="mensaje_errores"></p>
+    <p id="mensaje_total"></p>
+    <p id="mensaje_descuento"></p>
+    <p id="mensaje_total_final"></p>
+    </form>
+</body>
+</html>

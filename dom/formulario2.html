@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/scriptf2.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <form action="index.html" onsubmit="return validar()">
+    <label for="nombre:">Nombre<input type="text" id="nombre" required></label><br>
+    <p id="mensaje_nombre"></p>
+    <label for="email:">Email<input type="text" id="email" required></label><br>
+    <p id="mensaje_correo"></p>
+    <label for="contrasena">Contraseña<input type="password" id="password" required></label><br>
+    <p id="mensaje_contrasena"></p>
+    <button type="submit" value="enviar">Enviar</button>
+    </form>
+</body>
+</html>
